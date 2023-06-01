@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  
+}
+
+body {
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+ background-color: rgba(0, 0, 0, 0.808);
+  color: black;
+  font-family:Noto Nastaliq Urdu;
+}
+
+.headerBar {
+  background-color:  #04AA6D;
+  color: bisque;
+  text-align: center;
+  direction: rtl;
+}
+
+.title {
+  color: white;
+}
+
+.topbar {
+  margin-bottom: 10px;
+}
+
+.currency {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.balance {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.content {
+  width: 580px;
+  margin: 0 auto;
+  padding: 3%;
+  padding-left: 6%;
+  direction: rtl;
+}
+
+.secondTitle {
+  background-color: #04AA6D;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  padding: 5px;
+  font-size: 20px;
+  direction: rtl;
+}
+
+.form {
+  padding: 30px;
+  padding-top: 20px;
+  padding-left: 10%;
+  justify-content: center;
+  background-color: bisque;
+}
+
+.formLine {
+  display: inline-flex;
+  padding: 5px 0px;
+  direction: rtl;
+}
+
+.left {
+  float: right;
+}
+
+.right {
+  float: left;
+  margin-right: 100px;
+}
+
+input,
+select {
+  width: 140px;
+  font-family:Noto Nastaliq Urdu;
+}
+
+/* table style */
+table {
+  width: 100%;
+  direction: rtl;
+ 
+}
+
+thead {
+  background-color: #04AA6D;
+  color: white;
+  line-height: 30px;
+}
+
+tbody {
+  background-color: bisque;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* Button */
+
+button {
+  width: 140px;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+  line-height: 20px;
+  background-color: #04AA6D;
+  border-radius: 5px;
+  margin: 12px 35%;
+  cursor: pointer;
+  font-family:Noto Nastaliq Urdu;
+}
+
+button:hover {
+  box-shadow: 0 0 0 2px grey;
+  transition: 0.5s;
+}
+
+a {
+  text-decoration: underline;
+  cursor: pointer;
+}
